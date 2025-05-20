@@ -37,3 +37,18 @@ const checkMax=(one, two, three) =>{
 checkMax(125, 100, 135)
 checkMax(1,5,10)
 
+// perimeter of a rectangle
+
+function perimeter (L,W){
+    answer= 2*(L+W)
+    console.log(answer)
+}
+
+perimeter(12,5);
+perimeter(100,200);
+
+
+for(let i=0; i < 5; i++){
+    console.log("the value of i:", i)
+}
+
