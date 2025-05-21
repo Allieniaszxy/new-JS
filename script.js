@@ -52,3 +52,12 @@ for(let i=0; i < 5; i++){
     console.log("the value of i:", i)
 }
 
+function even(num){
+    retur= num %2 === 0
+    console.log(retur)
+
+}
+
+even(121);
+even(2);
+even (3)
