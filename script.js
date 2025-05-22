@@ -61,3 +61,8 @@ function even(num){
 even(121);
 even(2);
 even (3)
+
+console.log(document.querySelectorAll("li"))
+console.log(document.querySelectorAll("li")[3].innerHTML)
+console.log(document.querySelectorAll("li")[4].innerHTML = "Curry")
+
