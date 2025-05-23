@@ -65,4 +65,5 @@ even (3)
 console.log(document.querySelectorAll("li"))
 console.log(document.querySelectorAll("li")[3].innerHTML)
 console.log(document.querySelectorAll("li")[4].innerHTML = "Curry")
+console.log(document.querySelector("li"))
 
