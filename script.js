@@ -67,3 +67,17 @@ console.log(document.querySelectorAll("li")[3].innerHTML)
 console.log(document.querySelectorAll("li")[4].innerHTML = "Curry")
 console.log(document.querySelector("li"))
 
+document.querySelector("h2")
+function change(){
+    let h2= document.querySelector("h2")
+    if( h2.innerHTML === "close"){
+        h2.innerHTML="open"
+        alert('close')
+    }
+    else{
+        h2.innerHTML="close"
+        alert("open")
+    }
+}
+
+
