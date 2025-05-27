@@ -80,4 +80,6 @@ function change(){
     }
 }
 
+let list = document.querySelectorAll("li")
+
 
