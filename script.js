@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 // write a function that divides two number
 let divide = (num1, num2) => {
     result = num1/num2
@@ -171,4 +171,4 @@ function change(){
 let list = document.querySelectorAll("li")
 
 
->>>>>>> 078f6ac1ad14ef0440f10576abd6e256203ba0cf
+
