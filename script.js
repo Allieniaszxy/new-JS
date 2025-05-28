@@ -8,6 +8,7 @@ divide(25, 25);
 divide(100, 5);
 divide(56, 5);
 divide(144,12);
+divide(121,11)
 
 
 
@@ -79,5 +80,7 @@ function change(){
         alert("open")
     }
 }
+
+let list = document.querySelectorAll("li")
 
 
