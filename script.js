@@ -85,17 +85,17 @@ function change(){
 let list = document.querySelectorAll("li")
 
 
-=======
+// =======
 // write a function that divides two number
-let divide = (num1, num2) => {
+let divides = (num1, num2) => {
     result = num1/num2
     console.log(result)
 }
 
-divide(25, 25);
-divide(100, 5);
-divide(56, 5);
-divide(144,12);
+divides(25, 25);
+divides(100, 5);
+divides(56, 5);
+divides(144,12);
 
 
 
@@ -117,13 +117,13 @@ checkEven("ghuh");
 
 
 // write a function that returns the largest of three number.
-const checkMax=(one, two, three) =>{
+const checkMaxx=(one, two, three) =>{
     console.log(Math.max(one, two, three))
     console.log(Math.min(one,two,three))
 }
 
-checkMax(125, 100, 135)
-checkMax(1,5,10)
+checkMaxx(125, 100, 135)
+checkMaxx(1,5,10)
 
 // perimeter of a rectangle
 
@@ -168,7 +168,16 @@ function change(){
     }
 }
 
-let list = document.querySelectorAll("li")
+let lists = document.querySelectorAll("li")
 
 
 
+function send(){
+    let chatInput = document.getElementById("messageBox")
+
+    let newChat= document.createElement("p")
+    newChat.textContent = chatInput.value;
+
+    document.getElementsByClassName("message").appendChild(chatInput)
+    chatInput.value = ' '
+}
